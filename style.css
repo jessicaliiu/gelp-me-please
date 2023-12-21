@@ -1,180 +1,174 @@
 :root {
-	--navheight : 60px;
-	--white :#fff;
-	--black :#000;
+  --navheight: 60px;
+  --white: #fff;
+  --black: #000;
 }
 
 * {
-	margin:0px;
-	padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-	font-family:arial;
-	background-color:black;
+  font-family: arial;
+  background-color: black;
 }
 
 nav {
-	height:var(--navheight);
-	border-top:1px solid rgb(255,255,255,0.2);
-	width:80%;
-	margin:20px auto 0px;
+  height: var(--navheight);
+  border-top: 1px solid rgb(255, 255, 255, 0.2);
+  width: 80%;
+  margin: 20px auto 0px;
 }
 
 nav h4 {
-	color:var(--white);
-	line-height:var(--navheight);
-	text-transform:uppercase;
-	letter-spacing:2px;
-	float:left;
-	padding:0px 60px;
+  color: var(--white);
+  line-height: var(--navheight);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  float: left;
+  padding: 0px 60px;
 }
 
 nav i {
-		font-size:11px;
-	}
-	
+  font-size: 11px;
+}
+
 nav ul li ul li i {
-	float:right;
-}	
-	
+  float: right;
+}
+
 nav ul {
-	float:left;
+  float: left;
 }
 
 nav ul li {
-	position:relative;
-	float:left;
-	list-style-type:none;
+  position: relative;
+  float: left;
+  list-style-type: none;
 }
 
 nav ul li a {
-	display:block;
-	text-decoration:none;
-	color:var(--white);
-	letter-spacing:2px;
-	border:0px solid red;
-	text-transform:uppercase;
-	font-size:12px;
-	padding:22px 12px;
+  display: block;
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: 2px;
+  border: 0px solid red;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 22px 12px;
 }
 
 nav ul li ul {
-	display:none;
-	position:absolute;
-	background-color:var(--white);
-	border-radius:2px;
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  border-radius: 2px;
 }
 
 nav ul li ul li {
-	width:180px;
-	border-radius:0px 0px 2px 2px;
-	box-sizing:border-box;
-	padding:2px;
+  width: 180px;
+  border-radius: 0px 0px 2px 2px;
+  box-sizing: border-box;
+  padding: 2px;
 }
 
 nav ul li ul li a {
-	padding:15px 12px;
-	color:var(--black);
+  padding: 15px 12px;
+  color: var(--black);
 }
 
 nav ul li ul li a:hover {
-	background-color:gray;
-	color:var(--white);
-	border-radius:2px;
+  background-color: gray;
+  color: var(--white);
+  border-radius: 2px;
 }
 
-	
-nav ul li ul li ul{
-	display:none;
-	position:absolute;
-	background-color:var(--white);
-	border-radius:2px;
-	margin-left:180px;
+nav ul li ul li ul {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  border-radius: 2px;
+  margin-left: 180px;
 }
 
-nav ul li:hover>ul {
-	display:block;
+nav ul li:hover > ul {
+  display: block;
 }
 
-nav ul li ul li:hover>ul {
-	display:block;
+nav ul li ul li:hover > ul {
+  display: block;
 }
 
-h1{
-	font-size: 200px;
-	font-kerning: auto;
+h1 {
+  font-size: 200px;
+  font-kerning: auto;
 }
-.headertext{
-	text-align: left;
-	padding-left:240px;
-	padding-top: 20px;
-
+.headertext {
+  text-align: left;
+  padding-left: 240px;
+  padding-top: 20px;
 }
-.headertext p{
-  padding-left:20px;
+.headertext p {
+  padding-left: 20px;
 }
-
-
-
-
 
 .main-content {
-    background-color: white;
-    text-align: center;
-    padding: 20px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
 }
 
-div .main-content{
-  color: #fffff;
+div .main-content {
+  color: #ffffff;
 }
 
 .main-content h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 .main-content p {
-  background-color: #fffff;
-    font-size: 16px;
-    line-height: 1.6;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-
 .flex {
-
   display: flex;
   gap: 400px;
   align-items: flex-start;
   padding: 150px;
   padding-top: 200px;
-  
 }
-.bigimg{
-  float:right; 
-  filter:brightness(80%);
+
+.bigimg {
+  float: right;
+  filter: brightness(80%);
   width: 600px;
 }
-.subheading{
+
+.subheading {
   text-align: center;
-  padding: 50px
+  padding: 50px;
   font-size: 60px;
 }
+
 .center3 {
   margin-left: 260px;
 }
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
-
 }
+
 .box3 {
   float: left;
   width: 26%;
 
   padding: 50px;
-  margin:18px;
+  margin: 18px;
   text-align: center;
-
 }
