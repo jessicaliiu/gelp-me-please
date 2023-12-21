@@ -110,6 +110,8 @@ h1 {
   padding-top: 20px;
 }
 .headertext p {
+  color: #ffffff;
+  mix-blend-mode: difference;
   padding-left: 20px;
 }
 
